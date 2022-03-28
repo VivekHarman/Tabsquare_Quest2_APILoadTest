@@ -1,0 +1,5 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+GET https://demoqa.com/BookStore/v1/Books,25,361,188,1016,323.22,0.000%,5.87406,27.32,0.90,4762.0
+GET https://demoqa.com/BookStore/v1/Book?ISBN=9781449325862,25,203,187,237,17.38,0.000%,7.24008,5.62,1.24,795.0
+POST https://demoqa.com/Account/v1/GenerateToken,25,342,262,693,109.30,0.000%,7.14490,2.30,2.50,329.0
+TOTAL,75,302,187,1016,209.43,0.000%,15.81278,30.30,3.56,1962.0
